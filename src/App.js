@@ -28,6 +28,7 @@ function App() {
           <Route exact path="/detail/:id">
             <Product/>
           </Route>
+          
            <Registration/>
           <Route exact path="/registration">
             <Product/>

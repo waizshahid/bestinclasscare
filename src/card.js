@@ -71,7 +71,7 @@ const Card = (props) => {
                   </p>
                   <p style={{ color: "lightgrey" }}>
                     description :{" "}
-                    <span style={{ color: "black" }}>
+                    <span style={{ color: "black"  }}>
                       {" "}
                       {props.product.description}
                     </span>

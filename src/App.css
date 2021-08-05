@@ -24,6 +24,9 @@
 
   color: rgb(8, 8, 47);
 }
+#header {
+  overflow: hidden;
+}
 
 #para {
   font-size: small;
@@ -60,19 +63,55 @@
   background-color: rgb(238, 238, 238);
 }
 
-#size 
-{
-
+#size {
   height: 500;
   width: auto;
 
   margin-left: 5%;
-  margin-top: 5% ;
-  
+  margin-top: 15%;
+}
+
+#name {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#emailp {
+  min-width: 5%;
+  margin-left: 5%;
+  margin-right: 100%;
+}
+
+#email {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#formC {
+  margin-left: 50%;
+  width: 40%;
+  margin-top: 2%;
+}
+
+#formP {
+  width: 40%;
+  margin-top: 2%;
+  margin-right: 20%;
+}
+
+#textcard {
+  /* white-space: pre-wrap; */
+  /* text-overflow: ellipsis; */
+  flex: 1;
+ /* overflow-wrap: break-word ; */
+  /* overflow: hidden; */
 }
 
 form-size {
   width: auto;
+  
 }
 
 #butt,
@@ -105,14 +144,9 @@ form-size {
   color: white;
 }
 
-.tab{
-
-margin: auto;
-
-
+.tab {
+  margin: auto;
 }
-
-
 
 .App-link {
   color: #61dafb;
@@ -128,4 +162,13 @@ p {
   to {
     transform: rotate(360deg);
   }
+}
+
+.full-field {
+  margin-top: 2%;
+
+  margin-left: 30%;
+
+  height: 0%;
+  width: 40%;
 }

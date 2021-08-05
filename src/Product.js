@@ -27,6 +27,8 @@ function Product(props) {
   return (
     <>
       <div>
+
+  <strong></strong>    <h2>  Hospital detail page </h2>
         <div className="card shadow-sm">
           <Col sm={4} lg={12} style={{ flexDirection: "row", display: "flex" }}>
             <div>
@@ -63,7 +65,11 @@ function Product(props) {
 
                 <br />
               </div>
-          <strong>    <h7>Services Provided</h7>  </strong>
+          <strong sryle={{fontsize:"3"  }}  >    <h7   >     Services Provided</h7>  </strong>
+              
+              
+              
+              
               <Row>
                 <Col lg={4}>
                   {" "}
@@ -72,6 +78,7 @@ function Product(props) {
                       display: "flex",
                       justifyContent: "left",
                       flexDirection: "row",
+                      marginLeft:"10"
                     }}
                   >
                     {" "}
@@ -121,6 +128,7 @@ function Product(props) {
                       display: "flex",
                       justifyContent: "left",
                       flexDirection: "row",
+                      display: "-webkit-inline-box"
                     }}
                   >
                     {" "}
